@@ -5,23 +5,28 @@ The task is to create an application that'll help us manage the basic needs of o
 Library app must have an ability to add each of the entity to itself
 Library app must be persisted, that’s why we must have the ability to store/load data from the library.
 Library must have the ability to show some custom statistics about the library processes.
+
 Entities:
 Author
 Name - required, String, not empty
 Biography - optional
+
 Book
 Title - required,  String, not empty
 Author  - required, must be an instance of Author class.
+
 Reader
 Name, required, String, not empty
 Email - required, String, not empty
 City - required, String, not empty
 Street - required, String, not empty
 House - required, Integer, positive
+
 Order 
 Book - required, must be an instance of Book class.
 Reader must be an instance of Reader class
 Date must be an instance of a Ruby Date class. The default date is today's date. 
+
 Tasks:
 All the data of the library can be to stored/loaded into some storage (YML, JSON etc
 When we instantiate Library Class, all the entities must be loaded from the file.
@@ -31,7 +36,9 @@ books. The quantity of returned top readers must be configurable. Default quanti
 Most Popular Books. The most popular book is the book that was taken by READERS the most times. The quantity of returned most popular books must be configurable. Default quantity is 1 book.
 Number of Readers of the Most Popular Books. The number of readers that take one of the SOME_QUANTITY most popular books. By default, SOME_QUANTITY is 3
 * If a user takes, for example, both first most popular book and second most popular book, then we count him one time.
-The library must contain “seed” (root) file where you show how you use your library. The root file must contain: 
+The library must contain “seed” (root) file where you show how you use your library. 
+
+The root file must contain: 
 Library instantiation
 Creating of all basic Entities in several examples
 Adding at least one example of each entity to Library instance
