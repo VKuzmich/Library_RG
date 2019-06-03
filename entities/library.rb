@@ -12,23 +12,22 @@ class Library
 
   include SeedData
 
-  def initialize
-    @readers = []
-    @orders = []
-    @authors = []
-    @books = []
+  def initialize(readers, orders, authors, books)
+    @readers = readers
+    @orders = orders
+    @authors = authors
+    @books = books
   end
 
   # comment
   class PopularLibrary
     def book_list
-      30.times { @books << Book.new }
+      30.times { @books << Book.new(title, author) }
     end
 
     def book_readers
-      25.times { @readers << Reader.new }
-      @books.each do |book|
-        @authors << Author.new(book.author)
+      25.times { @readers << Reader.new(name, email, city, street, house) }
+      @books.each do |book| @authors << Author.new(book.author, book.title)
         unless @authors.include?(book.author)
         end
       end
@@ -37,7 +36,8 @@ class Library
     def book_orders
       50.times do
         @orders << Order.new(@books.sample.title,
-                             @readers.sample.name)
+                             @readers.sample.name,
+                             @date.sample.date)
       end
     end
   end

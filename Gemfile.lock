@@ -9,6 +9,7 @@ GEM
     fasterer (0.1.12)
       colorize (~> 0.7)
       ruby_parser (~> 3.6)
+    ffaker (2.11.0)
     i18n (1.6.0)
       concurrent-ruby (~> 1.0)
     jaro_winkler (1.5.2)
@@ -35,6 +36,7 @@ PLATFORMS
 DEPENDENCIES
   faker (~> 1.9, >= 1.9.3)
   fasterer (~> 0.1.9)
+  ffaker (~> 2.11.0)
   rubocop (~> 0.70.0)
 
 BUNDLED WITH
