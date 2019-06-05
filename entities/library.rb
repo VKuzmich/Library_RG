@@ -4,7 +4,7 @@ require './entities/book'
 require './entities/reader'
 require './entities/author'
 require './entities/order.rb'
-require './seed'
+require './tasks/seed'
 
 # library information
 class Library

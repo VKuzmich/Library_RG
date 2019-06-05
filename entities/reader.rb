@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 require 'ffaker'
-require './validate'
+require './tasks/validate'
 
 # Readers' information
 class Reader
@@ -21,7 +21,7 @@ class Reader
     "#{name}, #{email}, #{city}, #{street}. #{house}"
   end
 
-  def validate(*string)
-    string.each(&method(:check_empty_space))
+  def validate(*empty_field)
+    empty_field.each(&method(:check_empty_space))
   end
 end

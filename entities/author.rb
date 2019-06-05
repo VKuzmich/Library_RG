@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 require 'ffaker'
-require './validate'
+require './tasks/validate'
 
 # authors of books
 class Author
@@ -19,7 +19,7 @@ class Author
     "#{name}, #{biography}"
   end
 
-  def validate(*string)
-    string.each(&method(:check_empty_space))
+  def validate(*empty_field)
+    empty_field.each(&method(:check_empty_space))
   end
 end
