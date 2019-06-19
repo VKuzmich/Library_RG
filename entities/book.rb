@@ -1,18 +1,17 @@
 # frozen_string_literal: true
 
-require 'ffaker'
-require './tasks/validate'
+require_relative '../tasks/validate'
 
 # books to read
 class Book
   include Validate
   attr_reader :title, :author
 
-  def initialize(title, author)
+  def initialize(title:, author:)
     validate title, author
 
-    @title = Faker::Book.unique.title
-    @author = Faker::Book.author
+    @title = title
+    @author = author
   end
 
   def to_s

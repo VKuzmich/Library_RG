@@ -1,19 +1,18 @@
 # frozen_string_literal: true
 
-require 'ffaker'
-require './tasks/validate'
+require_relative '../tasks/validate'
 
 # orders of books
 class Order
   include Validate
   attr_reader :book, :reader, :date
 
-  def initialize(book, reader, date)
+  def initialize(book:, reader:, date:)
     validate date
 
     @book = book
     @reader = reader
-    @date = Faker::Date.backward(300)
+    @date = date
   end
 
   def validate(*date)

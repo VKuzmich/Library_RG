@@ -1,14 +1,14 @@
 # frozen_string_literal: true
 
 require 'ffaker'
-require './tasks/validate'
+require_relative '../tasks/validate'
 
 # authors of books
 class Author
   include Validate
   attr_reader :name, :biography
 
-  def initialize(name, biography)
+  def initialize(name)
     validate name, biography
 
     @name = name

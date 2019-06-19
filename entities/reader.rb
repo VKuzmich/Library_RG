@@ -1,20 +1,19 @@
 # frozen_string_literal: true
 
-require 'ffaker'
-require './tasks/validate'
+require_relative '../tasks/validate'
 
 # Readers' information
 class Reader
   attr_reader :name, :email, :city, :street, :house
 
-  def initialize(name, email, city, street, house)
+  def initialize(name:, email:, city:, street:, house:)
     validate name, email, city, street, house
 
-    @name = Faker::Name.unique.name
-    @email = Faker::Internet.unique.email
-    @city = Faker::Address.city
-    @street = Faker::Address.street_name
-    @house = Faker::Address.building_number
+    @name = name
+    @email = email
+    @city = city
+    @street = street
+    @house = house
   end
 
   def to_s

@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 # statistics
-module SeedData
+module Statistics
   def show
     puts <<-ENDOFSTRING
         Top Reader: #{top_reader}
