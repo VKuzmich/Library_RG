@@ -3,7 +3,7 @@
 require_relative '../entities/book'
 require_relative '../entities/reader'
 require_relative '../entities/author'
-require_relative '../entities/order.rb'
+require_relative '../entities/order'
 require_relative '../tasks/seed'
 
 class Library

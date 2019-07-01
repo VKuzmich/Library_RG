@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 # module errors validating
-module Validate
+module Error
   # validate for errors
   class FieldError < StandardError
     def initialize
@@ -15,8 +15,8 @@ module Validate
     end
   end
 
-  def check_empty_space(empty_field)
-    raise FieldError if empty_field.empty?
+  def check_empty_space(params)
+    raise FieldError if params.empty?
   end
 
   def check_dates(date)

@@ -20,7 +20,7 @@ class Reader
     "#{name}, #{email}, #{city}, #{street}. #{house}"
   end
 
-  def validate(*empty_field)
-    empty_field.each(&method(:check_empty_space))
+  def validate(*params)
+    params.each(&method(:check_empty_space))
   end
 end

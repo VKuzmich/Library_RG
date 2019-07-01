@@ -3,7 +3,7 @@
 require 'yaml'
 require_relative './entities/library'
 require_relative './tasks/seed'
-require_relative './tasks/fake-data.rb'
+require_relative './tasks/fake-data'
 require_relative './tasks/database'
 
 
