@@ -1,19 +1,10 @@
 # frozen_string_literal: true
+require_relative '../tasks/errors/errors'
 
-# module errors validating
-module Error
-  # validate for errors
-  class FieldError < StandardError
-    def initialize
-      super('it cannot be empty')
-    end
-  end
+# module validating
 
-  class WrongNumber < StandardError
-    def initialize
-      super('not a number or negative!')
-    end
-  end
+module Validate
+  include Errors
 
   def check_empty_space(params)
     raise FieldError if params.empty?

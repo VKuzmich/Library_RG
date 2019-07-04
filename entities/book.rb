@@ -4,7 +4,7 @@ require_relative '../tasks/validate'
 
 # books to read
 class Book
-  include Error
+  include Validate
   attr_reader :title, :author
 
   def initialize(title:, author:)
@@ -19,6 +19,6 @@ class Book
   end
 
   def validate(*params)
-    params.each(&method(:check_empty_space))
+    params.each(&:check_empty_space)
   end
 end

@@ -5,7 +5,7 @@ require_relative '../tasks/validate'
 
 # authors of books
 class Author
-  include Error
+  include Validate
   attr_reader :name, :biography
 
   def initialize(name)
@@ -20,6 +20,6 @@ class Author
   end
 
   def validate(*params)
-    params.each(&method(:check_empty_space))
+    params.each(&:check_empty_space)
   end
 end

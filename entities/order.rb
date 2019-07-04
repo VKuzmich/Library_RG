@@ -4,7 +4,7 @@ require_relative '../tasks/validate'
 
 # orders of books
 class Order
-  include Error
+  include Validate
   attr_reader :book, :reader, :date
 
   def initialize(book:, reader:, date:)
@@ -15,7 +15,7 @@ class Order
     @date = date
   end
 
-  def validate(*date)
-    date.(&method(:check_dates))
+  def validate(date)
+    date.each(&:check_dates)
   end
 end

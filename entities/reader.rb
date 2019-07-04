@@ -4,6 +4,7 @@ require_relative '../tasks/validate'
 
 # Readers' information
 class Reader
+  include Validate
   attr_reader :name, :email, :city, :street, :house
 
   def initialize(name:, email:, city:, street:, house:)
@@ -21,6 +22,6 @@ class Reader
   end
 
   def validate(*params)
-    params.each(&method(:check_empty_space))
+    params.each(&:check_empty_space)
   end
 end
