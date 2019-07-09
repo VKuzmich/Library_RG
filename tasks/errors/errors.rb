@@ -1,10 +1,10 @@
 # frozen_string_literal: true
-require_relative './field_error'
-require_relative './wrong_number_error'
+require_relative '../errors/field_error'
+require_relative '../../tasks/errors/wrong_number_error'
 
 module Errors
 
-  include WrongNumber
-  include FieldError
+  WrongNumber.new()
+  FieldError.new()
 
 end
