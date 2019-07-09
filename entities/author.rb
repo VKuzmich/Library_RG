@@ -8,7 +8,7 @@ class Author
   include Validate
   attr_reader :name, :biography
 
-  def initialize(name, biography)
+  def initialize(name)
     validate name, biography
 
     @name = name
