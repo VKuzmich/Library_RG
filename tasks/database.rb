@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require_relative '../dependencies'
+
 
 module Database
   DB_PATH = './tasks/database/'
@@ -23,12 +23,11 @@ module Database
     check_dir
 
     file = DB_PATH + DB_FILE
-    path = Pathname.new(file).exist? ? file : './lib_db.yaml'
+    path = Pathname.new(file).exist? ? file : 'lib_db.yaml'
 
     yaml = File.read(path)
-    data = Psych.safe_load(
-        yaml, [Symbol, Date, Author, Book, Reader, Order], [], true
-    )
+
+    data = Psych.safe_load(yaml, [Symbol, Date, Author, Book, Reader, Order], [], true)
 
     add_to_library data
   end

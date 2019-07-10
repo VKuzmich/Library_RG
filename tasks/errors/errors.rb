@@ -7,4 +7,10 @@ module Errors
   WrongNumber.new()
   FieldError.new()
 
+  class WrongClassError < StandardError
+    def initialize
+      super('Wrong class!')
+    end
+  end
+
 end

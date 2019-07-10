@@ -5,9 +5,9 @@ require_relative '../dependencies'
 # orders of books
 class Order
   include Validate
-  attr_reader :book, :reader, :date
+  attr_accessor :book, :reader, :date
 
-  def initialize(book:, reader:, date:)
+  def initialize(book:, reader:, date: Date.today)
     validate date
 
     @book = book
@@ -16,10 +16,10 @@ class Order
   end
 
   def to_s
-    "#{book}, #{reader}, #{date}"
+    "#{@book}, #{@reader}, #{@date}"
   end
 
   def validate(date)
-    date.(&:check_dates)
+    instance?(Date, date)
   end
 end
