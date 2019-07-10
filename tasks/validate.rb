@@ -6,7 +6,7 @@ require_relative '../tasks/errors/errors'
 module Validate
   include Errors
 
-  def check_empty_space(params)
+  def check_empty_space(*params)
     raise FieldError if params.empty?
   end
 

@@ -9,3 +9,5 @@ gem 'fasterer', '~> 0.1.9'
 gem 'faker', '~> 1.9', '>= 1.9.3'
 
 gem 'ffaker', '~>2.11.0'
+
+gem 'byebug'

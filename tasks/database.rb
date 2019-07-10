@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require_relative '../tasks/fake-data'
+require_relative '../dependencies'
 
 module Database
   DB_PATH = './tasks/database/'

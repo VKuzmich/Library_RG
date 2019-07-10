@@ -4,7 +4,7 @@ require_relative 'dependencies'
 
 
 authors = 30.times { Author.new(name: FFaker::Name.name,
-                                biography: 'Author biography') }
+                                biography: FFaker::Lorem.paragraph) }
 books = 30.times { Book.new(title: FFaker::Book.title, author: authors) }
 readers = 30.times { Reader.new(name: FFaker::Name.name,
                                 email: FFaker::Internet.email,

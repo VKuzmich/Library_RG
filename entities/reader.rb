@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require_relative '../tasks/validate'
+require_relative '../dependencies'
 
 # Readers' information
 class Reader
@@ -22,6 +22,6 @@ class Reader
   end
 
   def validate(*params)
-    params.each(&:check_empty_space)
+    params.each(&method(:check_empty_space))
   end
 end

@@ -1,13 +1,13 @@
 # frozen_string_literal: true
 
-require_relative '../tasks/validate'
+require_relative '../dependencies'
 
 # books to read
 class Book
   include Validate
   attr_reader :title, :author
 
-  def initialize(title:, author:)
+  def initialize( title:, author:)
     validate title, author
 
     @title = title
@@ -15,10 +15,11 @@ class Book
   end
 
   def to_s
-    "#{title}, #{author}"
+    title
+    author
   end
 
   def validate(*params)
-    params.each(&:check_empty_space)
+    params.each(&method(:check_empty_space))
   end
 end

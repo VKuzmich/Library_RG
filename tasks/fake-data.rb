@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 require_relative '../entities/library'
-require 'faker'
+require 'ffaker'
 
 module FakeData
 
@@ -11,7 +11,7 @@ LIMIT = 25
     def book_list
       @books = Array.new(rand(5..LIMIT)) do
         Book.new(
-            title: Faker::Book.title,
+            title: FFaker::Book.title,
             author: @authors.sample)
       end
 
@@ -20,17 +20,17 @@ LIMIT = 25
     def book_readers
       @readers = Array.new(rand(5..LIMIT)) do
         Reader.new(
-            name: Faker::Name.name,
-            email: Faker::Internet.email,
-            city: Faker::Address.city,
-            street: Faker::Address.street_name,
-            house: Faker::rand(1..100)
+            name: FFaker::Name.name,
+            email: FFaker::Internet.email,
+            city: FFaker::Address.city,
+            street: FFaker::Address.street_name,
+            house: FFaker::rand(1..100)
         )
       end
 
       @books.each do |book| @authors = Array.new(rand(5..LIMIT)) do
         Author.new(
-            name: Faker::Name.name,
+            name: FFaker::Name.name,
             biography: 'Author biography'
         )
         end

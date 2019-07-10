@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require_relative '../tasks/validate'
+require_relative '../dependencies'
 
 # orders of books
 class Order
@@ -15,7 +15,11 @@ class Order
     @date = date
   end
 
+  def to_s
+    "#{book}, #{reader}, #{date}"
+  end
+
   def validate(date)
-    date.each(&:check_dates)
+    date.(&:check_dates)
   end
 end
