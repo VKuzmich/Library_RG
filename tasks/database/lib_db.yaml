@@ -1,0 +1,543 @@
+---
+:authors: &1
+- !ruby/object:Author
+  name: Millicent Kshlerin
+  biography: Est vel sunt ut modi voluptatem atque quo qui. Distinctio natus sit aliquam
+    cupiditate corrupti. Id molestias eveniet ut ea dolorem qui. Aliquam doloribus
+    voluptas molestiae assumenda. Sequi qui placeat maxime fuga.
+- !ruby/object:Author
+  name: Latricia Reichel
+  biography: Pariatur assumenda quia nemo quisquam. Eos beatae ut et tenetur sed.
+    Autem hic velit et qui asperiores. Et corporis reiciendis ea illo eligendi sunt
+    velit. Dolores deserunt possimus quo voluptas quae eos dolores quos.
+- !ruby/object:Author
+  name: Mei Rodriguez
+  biography: Veritatis explicabo vitae cupiditate ipsum. Voluptatum eos excepturi
+    facere et laboriosam. Officiis enim unde molestias ut libero aut.
+- !ruby/object:Author
+  name: Lucas Kerluke
+  biography: Accusamus mollitia accusantium rerum hic assumenda deserunt. Dolor eos
+    aut ut sint. Ad assumenda maiores cupiditate placeat qui. Et tenetur non aspernatur
+    totam.
+- !ruby/object:Author
+  name: Neil Mertz
+  biography: Quasi voluptas expedita est tempore explicabo nisi dicta. Corporis quasi
+    sequi molestiae temporibus repellat molestias. Alias libero harum asperiores consequuntur.
+    Totam tempore voluptas ut labore. Modi inventore sint ipsa aperiam voluptate.
+- !ruby/object:Author
+  name: Julia Batz
+  biography: Voluptates aliquid omnis sunt optio. Qui quasi pariatur aspernatur dolore
+    et. Assumenda occaecati voluptas quam corrupti velit. Omnis earum quis incidunt
+    non. Voluptas odit est et excepturi quis blanditiis.
+- !ruby/object:Author
+  name: Catarina Jast
+  biography: Beatae et dolor sequi laudantium molestias temporibus. Laboriosam aperiam
+    amet voluptatibus nihil reiciendis impedit non. Animi id voluptatem quas laboriosam
+    aut laudantium. Animi facilis corporis illo velit quis dignissimos ut possimus.
+- !ruby/object:Author
+  name: Tim Douglas
+  biography: Expedita porro harum voluptate sunt nobis facere modi nesciunt. Labore
+    accusantium impedit dolorem magni natus. Explicabo unde vitae voluptates rem.
+- !ruby/object:Author
+  name: Athena Shields
+  biography: Modi mollitia quis totam qui sed a. Tempora odit minus non explicabo
+    reiciendis dolor quo labore. Est fugit itaque minus voluptas. Et et fugit distinctio
+    dolores.
+- !ruby/object:Author
+  name: Veronika Vandervort
+  biography: Corrupti doloremque quo vel nam exercitationem. Cupiditate ab qui mollitia
+    ratione error omnis fugit. Culpa optio earum nesciunt velit. Consectetur reprehenderit
+    unde rem non aut ratione voluptatem.
+- !ruby/object:Author
+  name: Mirta Bergstrom
+  biography: Aut tempore praesentium odit quisquam sed dolor voluptatum. Saepe laboriosam
+    quia magni modi aperiam. Vel a unde repudiandae molestiae. Molestias quo provident
+    qui molestiae aspernatur qui. Dignissimos amet labore aliquam sit.
+- !ruby/object:Author
+  name: Enriqueta Hansen
+  biography: Placeat qui voluptatum cupiditate corrupti reiciendis vel deserunt. Maiores
+    amet quam consequuntur laboriosam praesentium tenetur. Quidem recusandae aperiam
+    iure ea dignissimos minus labore delectus. Fugit ratione voluptatem distinctio
+    et et deserunt.
+- !ruby/object:Author
+  name: Ying Fadel
+  biography: Totam aut ipsa dolor ut eos nihil. Nulla laborum natus debitis deleniti
+    molestiae non excepturi. Nam modi accusantium quia enim. Corporis magnam voluptatem
+    ad asperiores.
+- !ruby/object:Author
+  name: Jeanine Littel
+  biography: Hic adipisci cumque doloremque amet nemo magni labore officiis. Est error
+    maiores facilis et magnam mollitia vitae natus. In quia quo doloremque et. Explicabo
+    et corrupti deserunt omnis. Dignissimos occaecati sunt non ut illo quidem.
+- !ruby/object:Author
+  name: Treasa Ritchie
+  biography: Quasi quia deleniti natus fuga soluta veritatis tempore. Voluptatem commodi
+    consequatur atque voluptatem. Dolore sequi eos maxime ut optio.
+- !ruby/object:Author
+  name: Terrance Donnelly
+  biography: Omnis velit quia aperiam et perferendis et. Qui dicta excepturi quia
+    sequi quis eum. Deleniti neque enim autem dignissimos eos sint.
+- !ruby/object:Author
+  name: Shanita Bernhard
+  biography: Asperiores qui et molestias excepturi laudantium. Delectus in reiciendis
+    libero perspiciatis quia et repudiandae. Officia est a tempore velit ipsum aspernatur
+    cum.
+- !ruby/object:Author
+  name: Dessie Runte
+  biography: Ipsum facere molestiae id aut. Accusamus velit consequatur voluptas et
+    in et. Explicabo nam officia quo praesentium.
+- !ruby/object:Author
+  name: Jovita Ryan
+  biography: Vel delectus eius nemo est voluptatem. Est quo porro officiis voluptatum
+    qui. Impedit nulla porro consequatur dicta qui et omnis eum. Est est nobis praesentium
+    id. Alias aut voluptatibus et animi.
+- !ruby/object:Author
+  name: Tomeka DuBuque
+  biography: Deleniti quis id cumque praesentium aliquam est. Et aliquid minima quam
+    harum ut facere. Exercitationem alias sit reiciendis voluptatem non sunt ab natus.
+    Occaecati qui omnis deleniti sed officiis quo sit veritatis.
+- !ruby/object:Author
+  name: Kristina Kunde
+  biography: Qui hic sit eum voluptas earum non et. Natus necessitatibus veritatis
+    id omnis nihil. Et eum aspernatur numquam quod eveniet earum. Ipsam dolores amet
+    consequatur autem molestias hic. Nobis tempore veritatis molestias explicabo sunt
+    eius saepe ipsum.
+- !ruby/object:Author
+  name: Hwa Sporer
+  biography: Iusto ipsa inventore ad qui soluta quibusdam accusamus atque. Rerum consequatur
+    veritatis veniam minima aperiam voluptas neque doloribus. Ipsa veritatis fugiat
+    architecto consequatur asperiores velit voluptas. Vel est quasi aut omnis ullam
+    eveniet.
+- !ruby/object:Author
+  name: Gregg Bruen
+  biography: Alias voluptates autem nostrum at tenetur laborum expedita. Nemo velit
+    nisi fugit nulla dolores dolores harum. Accusantium omnis possimus voluptatibus
+    qui harum.
+- !ruby/object:Author
+  name: Tammi Schmeler
+  biography: Nihil ut eos voluptates soluta. Consequatur quisquam unde aut quidem
+    nisi aliquid voluptatem veniam. Asperiores consequatur praesentium odio eveniet.
+    Aut aut qui sed quidem impedit fugit consequatur.
+- !ruby/object:Author
+  name: Jonathon Vandervort
+  biography: Illum recusandae eos aut voluptas alias est. Velit unde dolores est quidem
+    quasi non. Aut maxime qui architecto earum est laboriosam quod quidem. Error nisi
+    nobis dolores numquam qui officia veritatis fuga. Commodi aut autem sunt architecto
+    ut magni.
+- !ruby/object:Author
+  name: Aurore Cormier
+  biography: Non non itaque eligendi qui quia. Repellendus molestiae eum veritatis
+    quo voluptatum quas aut. Dolorem temporibus adipisci tempora qui possimus perferendis
+    illo eum. Nihil neque maiores perspiciatis debitis reprehenderit illo.
+- !ruby/object:Author
+  name: Maryellen Graham
+  biography: Eligendi harum qui iusto quia sunt architecto accusantium. Aut suscipit
+    assumenda maiores nam minima nobis qui odit. Aut voluptatem voluptatum eaque maiores.
+    Explicabo libero eum vel vitae velit omnis odio. Non et recusandae similique aut.
+- !ruby/object:Author
+  name: Macy Haley
+  biography: Ut labore animi minus sunt atque. Omnis eum velit mollitia consequatur
+    incidunt. Dolor nam excepturi autem repellendus fugiat illum ipsa blanditiis.
+    Ad molestiae iure illo et omnis.
+- !ruby/object:Author
+  name: Estrella Hintz
+  biography: Quia perspiciatis dolorem id maxime. Qui nulla ducimus error modi qui
+    accusantium. Tempore accusamus consequatur dolores perferendis alias aut.
+- !ruby/object:Author
+  name: Aura Kling
+  biography: Similique voluptas voluptas eaque delectus omnis. Voluptatem voluptas
+    nisi alias veritatis est error. Sapiente odio autem rerum sit. Nesciunt voluptates
+    eum quia voluptatem perspiciatis fugiat sed occaecati.
+:books: &2
+- !ruby/object:Book
+  title: Time of the Killer Pickpocket
+  author: *1
+- !ruby/object:Book
+  title: Danger Demon
+  author: *1
+- !ruby/object:Book
+  title: Blonde Demon
+  author: *1
+- !ruby/object:Book
+  title: Planet of the Dangerous Brains
+  author: *1
+- !ruby/object:Book
+  title: Death Mutant
+  author: *1
+- !ruby/object:Book
+  title: Time of the Red Demon
+  author: *1
+- !ruby/object:Book
+  title: Invasion of the Flying Brains
+  author: *1
+- !ruby/object:Book
+  title: A Fistful of Blue Jungle
+  author: *1
+- !ruby/object:Book
+  title: Dangerous World
+  author: *1
+- !ruby/object:Book
+  title: American Demon
+  author: *1
+- !ruby/object:Book
+  title: Day of the American Man
+  author: *1
+- !ruby/object:Book
+  title: 'Codename: Action Cousins'
+  author: *1
+- !ruby/object:Book
+  title: Invasion of the Electric Woman
+  author: *1
+- !ruby/object:Book
+  title: Bloody Diaries
+  author: *1
+- !ruby/object:Book
+  title: Planet of the Action Wolf
+  author: *1
+- !ruby/object:Book
+  title: Blue Tears
+  author: *1
+- !ruby/object:Book
+  title: Tokyo Wizard
+  author: *1
+- !ruby/object:Book
+  title: Danger Beast
+  author: *1
+- !ruby/object:Book
+  title: Return of the Electric Wolves
+  author: *1
+- !ruby/object:Book
+  title: Day of the Champagne Cat
+  author: *1
+- !ruby/object:Book
+  title: Blonde Brains
+  author: *1
+- !ruby/object:Book
+  title: Green Gypsy
+  author: *1
+- !ruby/object:Book
+  title: Tokyo Diaries
+  author: *1
+- !ruby/object:Book
+  title: Tokyo Rain
+  author: *1
+- !ruby/object:Book
+  title: Hungry Wolves
+  author: *1
+- !ruby/object:Book
+  title: Legend of Bloody Woman
+  author: *1
+- !ruby/object:Book
+  title: Death Pickpocket
+  author: *1
+- !ruby/object:Book
+  title: I Married a Dangerous Man
+  author: *1
+- !ruby/object:Book
+  title: Time of the Blue Friday
+  author: *1
+- !ruby/object:Book
+  title: Hungry Brain
+  author: *1
+:orders:
+- !ruby/object:Order
+  book: *2
+  reader: &3
+  - !ruby/object:Reader
+    name: Macie Konopelski
+    email: thomasina@starkdavis.info
+    city: Kozeyside
+    street: Howe Alley
+    house: 19
+  - !ruby/object:Reader
+    name: Lu Johns
+    email: walter.witting@oconnellhomenick.us
+    city: Roxannmouth
+    street: Angel Rapids
+    house: 45
+  - !ruby/object:Reader
+    name: Darryl Kassulke
+    email: milly.davis@reinger.us
+    city: Murrayland
+    street: Reichert Bypass
+    house: 99
+  - !ruby/object:Reader
+    name: Brad Nikolaus
+    email: raguel.sporer@schmitt.name
+    city: South Torrieborough
+    street: Shondra Club
+    house: 23
+  - !ruby/object:Reader
+    name: Kyung Farrell
+    email: connie_wolf@ziemefeeney.com
+    city: Port Bonnie
+    street: Myles Lakes
+    house: 84
+  - !ruby/object:Reader
+    name: Matha Funk
+    email: raphael@hickle.biz
+    city: Corwinton
+    street: Wuckert Crescent
+    house: 13
+  - !ruby/object:Reader
+    name: Mitchell Glover
+    email: regan@hauckjaskolski.name
+    city: Port Jasper
+    street: Cummings Burgs
+    house: 1
+  - !ruby/object:Reader
+    name: Rudolph Franecki
+    email: isidro_haag@marvin.info
+    city: New Margareta
+    street: Thompson Burgs
+    house: 30
+  - !ruby/object:Reader
+    name: Ken Trantow
+    email: garth@friesen.co.uk
+    city: Conradstad
+    street: Shon Flat
+    house: 67
+  - !ruby/object:Reader
+    name: Sherly Jones
+    email: bee@gerhold.info
+    city: South Nikiamouth
+    street: Violet Orchard
+    house: 92
+  - !ruby/object:Reader
+    name: Lana Orn
+    email: janise@borer.com
+    city: South Pazport
+    street: Schneider Fall
+    house: 57
+  - !ruby/object:Reader
+    name: Theresa Kiehn
+    email: hortense.pagac@oconner.com
+    city: Roweton
+    street: Kenneth Rest
+    house: 14
+  - !ruby/object:Reader
+    name: Sindy Flatley
+    email: kendra@feest.co.uk
+    city: Lake Jackiebury
+    street: Reinger Meadow
+    house: 60
+  - !ruby/object:Reader
+    name: Tameka Raynor
+    email: josue@schaefer.com
+    city: West Tabatha
+    street: Halvorson Cliffs
+    house: 95
+  - !ruby/object:Reader
+    name: Nelda Mills
+    email: chanelle.mraz@koelpin.ca
+    city: Port Clarisa
+    street: Jettie Oval
+    house: 1
+  - !ruby/object:Reader
+    name: Nikole Trantow
+    email: jannie.monahan@ferry.us
+    city: Trantowchester
+    street: Heriberto Rest
+    house: 83
+  - !ruby/object:Reader
+    name: Nita Mann
+    email: irvin@raynor.ca
+    city: Lake Fannybury
+    street: Providencia Parkway
+    house: 64
+  - !ruby/object:Reader
+    name: Allyn Jacobi
+    email: marquetta@ryanfarrell.name
+    city: Arnoldmouth
+    street: Veum Hills
+    house: 70
+  - !ruby/object:Reader
+    name: Lorena Muller
+    email: devin_schuppe@mayert.us
+    city: Ronnaberg
+    street: Schumm Mews
+    house: 67
+  - !ruby/object:Reader
+    name: Angele Bosco
+    email: dirk@cartwrightweber.co.uk
+    city: East Clora
+    street: Hayes Streets
+    house: 4
+  - !ruby/object:Reader
+    name: Salvador Auer
+    email: lyndsey.schowalter@mcglynn.us
+    city: Renatown
+    street: Fisher Highway
+    house: 42
+  - !ruby/object:Reader
+    name: Elene Wintheiser
+    email: avery@heathcotehintz.name
+    city: East Lucianahaven
+    street: Torphy Shoal
+    house: 79
+  - !ruby/object:Reader
+    name: Williams Muller
+    email: cleveland_parisian@lefflergorczany.name
+    city: New Twana
+    street: Parthenia Knoll
+    house: 88
+  - !ruby/object:Reader
+    name: Valerie Schamberger
+    email: trish.nolan@wildermandickinson.ca
+    city: Lake Ramiromouth
+    street: Nitzsche Ridges
+    house: 46
+  - !ruby/object:Reader
+    name: Ailene Harber
+    email: linh.tillman@marquardtmorar.ca
+    city: Quigleychester
+    street: Bernhard Landing
+    house: 69
+  - !ruby/object:Reader
+    name: Lilla Gorczany
+    email: pasty@marvin.co.uk
+    city: Beierport
+    street: Jeane Villages
+    house: 45
+  - !ruby/object:Reader
+    name: Armanda Botsford
+    email: venus.braun@ratke.biz
+    city: Kerstinberg
+    street: Lauri Manor
+    house: 8
+  - !ruby/object:Reader
+    name: Violeta Klein
+    email: lean_mraz@harvey.biz
+    city: New Gene
+    street: Gulgowski Keys
+    house: 20
+  - !ruby/object:Reader
+    name: Crista Rolfson
+    email: young.ondricka@ricewilderman.us
+    city: McClureborough
+    street: Otto Motorway
+    house: 55
+  - !ruby/object:Reader
+    name: Cherryl Grimes
+    email: sherika_hane@jacobi.com
+    city: Melodieview
+    street: Osvaldo Loop
+    house: 32
+  date: 2019-07-11
+- !ruby/object:Order
+  book: *2
+  reader: *3
+  date: 2019-07-11
+- !ruby/object:Order
+  book: *2
+  reader: *3
+  date: 2019-07-11
+- !ruby/object:Order
+  book: *2
+  reader: *3
+  date: 2019-07-11
+- !ruby/object:Order
+  book: *2
+  reader: *3
+  date: 2019-07-11
+- !ruby/object:Order
+  book: *2
+  reader: *3
+  date: 2019-07-11
+- !ruby/object:Order
+  book: *2
+  reader: *3
+  date: 2019-07-11
+- !ruby/object:Order
+  book: *2
+  reader: *3
+  date: 2019-07-11
+- !ruby/object:Order
+  book: *2
+  reader: *3
+  date: 2019-07-11
+- !ruby/object:Order
+  book: *2
+  reader: *3
+  date: 2019-07-11
+- !ruby/object:Order
+  book: *2
+  reader: *3
+  date: 2019-07-11
+- !ruby/object:Order
+  book: *2
+  reader: *3
+  date: 2019-07-11
+- !ruby/object:Order
+  book: *2
+  reader: *3
+  date: 2019-07-11
+- !ruby/object:Order
+  book: *2
+  reader: *3
+  date: 2019-07-11
+- !ruby/object:Order
+  book: *2
+  reader: *3
+  date: 2019-07-11
+- !ruby/object:Order
+  book: *2
+  reader: *3
+  date: 2019-07-11
+- !ruby/object:Order
+  book: *2
+  reader: *3
+  date: 2019-07-11
+- !ruby/object:Order
+  book: *2
+  reader: *3
+  date: 2019-07-11
+- !ruby/object:Order
+  book: *2
+  reader: *3
+  date: 2019-07-11
+- !ruby/object:Order
+  book: *2
+  reader: *3
+  date: 2019-07-11
+- !ruby/object:Order
+  book: *2
+  reader: *3
+  date: 2019-07-11
+- !ruby/object:Order
+  book: *2
+  reader: *3
+  date: 2019-07-11
+- !ruby/object:Order
+  book: *2
+  reader: *3
+  date: 2019-07-11
+- !ruby/object:Order
+  book: *2
+  reader: *3
+  date: 2019-07-11
+- !ruby/object:Order
+  book: *2
+  reader: *3
+  date: 2019-07-11
+- !ruby/object:Order
+  book: *2
+  reader: *3
+  date: 2019-07-11
+- !ruby/object:Order
+  book: *2
+  reader: *3
+  date: 2019-07-11
+- !ruby/object:Order
+  book: *2
+  reader: *3
+  date: 2019-07-11
+- !ruby/object:Order
+  book: *2
+  reader: *3
+  date: 2019-07-11
+- !ruby/object:Order
+  book: *2
+  reader: *3
+  date: 2019-07-11
+:readers: *3

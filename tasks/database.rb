@@ -28,11 +28,11 @@ module Database
     path = Pathname.new(file).exist? ? file : './lib_db.yaml'
 
     yaml = File.read(path)
-    data = Psych.safe_load(
+    Psych.safe_load(
         yaml, [Symbol, Library, Date, Author, Book, Reader, Order], [], true
     )
 
-    add_to_library data
+    # add_to_library data
   end
 
   def delete_data
@@ -42,7 +42,7 @@ module Database
     File.delete(file)
   end
 
-  def add_to_library(data = {})
+  def add_to_library(data)
     @authors  = data[:authors]
     @books    = data[:books]
     @orders   = data[:orders]
