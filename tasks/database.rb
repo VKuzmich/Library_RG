@@ -5,10 +5,10 @@ module Database
 
   def save_data
     data = {
-        authors: @authors,
-        books: @books,
-        readers: @readers,
-        orders: @orders
+      authors: @authors,
+      books: @books,
+      readers: @readers,
+      orders: @orders
     }
 
     File.write(PATH_FILE, data.to_yaml)
@@ -22,7 +22,10 @@ module Database
   def load_library_from_seeds
     yaml_file = File.read(PATH_FILE)
     Psych.safe_load(
-        yaml_file, [Symbol, Date, Author, Book, Reader, Order], [], true
+      yaml_file,
+      [Symbol, Date, Author, Book, Reader, Order],
+      [],
+      true
     )
   end
 

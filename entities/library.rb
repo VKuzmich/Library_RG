@@ -3,7 +3,6 @@
 require_relative '../dependencies'
 
 class Library
-
   include Database
   include Statistics
 

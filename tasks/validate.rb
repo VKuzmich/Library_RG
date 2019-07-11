@@ -3,7 +3,6 @@
 require_relative '../tasks/errors/errors'
 
 # module validating
-
 module Validate
   include Errors
 
