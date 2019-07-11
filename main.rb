@@ -1,8 +1,12 @@
 # frozen_string_literal: true
 
-require_relative 'dependencies'
+require 'date'
 
-
+require_relative 'entities/author'
+require_relative 'entities/book'
+require_relative 'entities/order'
+require_relative 'entities/reader'
+require_relative 'entities/library'
 
 authors = 30.times { Author.new(name: FFaker::Name.name,
                                 biography: FFaker::Lorem.paragraph) }
@@ -24,6 +28,35 @@ library.save_data
 library.show
 
 
+
+
+# require_relative './tasks/database'
+# require_relative 'dependencies'
+# # require_relative 'tasks/database'
+# # include Database
+#
+#
+#
+# authors = 30.times { Author.new(name: FFaker::Name.name,
+#                                 biography: FFaker::Lorem.paragraph) }
+# books = 30.times { Book.new(title: FFaker::Book.title, author: authors) }
+# readers = 30.times { Reader.new(name: FFaker::Name.name,
+#                                 email: FFaker::Internet.email,
+#                                 city: FFaker::Address.city,
+#                                 street: FFaker::Address.street_name,
+#                                 house: FFaker::rand(1..100)) }
+# orders = 30.times { Order.new(book: books,
+#                               reader: readers,
+#                               date: Date.today) }
+#
+# library=Library.new(authors: [], books: [], readers: [], orders: [])
+#
+# library.load_data
+#
+# library.save_data
+# library.show
+#
+#
 
 # if File.exist?('lib_db.yaml')
 #   library = YAML.load_file('lib_db.yaml', {})

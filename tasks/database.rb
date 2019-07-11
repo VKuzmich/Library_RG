@@ -1,6 +1,8 @@
 # frozen_string_literal: true
 
-
+require_relative '../tasks/database'
+require 'pathname'
+require 'psych'
 
 module Database
   DB_PATH = './tasks/database/'
@@ -29,12 +31,6 @@ module Database
 
     data = Psych.safe_load(yaml, [Symbol, Date, Author, Book, Reader, Order], [], true)
 
-    add_to_library data
-  end
-
-  def generate_data
-    check_dir
-    data = FakeData.call
     add_to_library data
   end
 

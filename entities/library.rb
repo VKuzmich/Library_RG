@@ -1,13 +1,29 @@
 # frozen_string_literal: true
 
+# require_relative '../tasks/database'
+# require_relative '../tasks/statistics'
+# class Library
+#   attr_reader :readers, :orders, :authors, :books
+#   include Database
+#   include Statistics
+#
+#   def initialize(readers: [], orders: [], authors: [], books: [])
+#     @readers = readers
+#     @orders = orders
+#     @authors = authors
+#     @books = books
+#   end
+# end
+
+
+# frozen_string_literal: true
+
 require_relative '../dependencies'
-require_relative '../tasks/seed'
 
 class Library
   attr_reader :readers, :orders, :authors, :books
 
   include Database
-
   include Statistics
 
   def initialize(readers:, orders:, authors:, books:)
