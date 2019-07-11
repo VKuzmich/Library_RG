@@ -1,10 +1,12 @@
 # frozen_string_literal: true
 
 require_relative '../dependencies'
+require 'pathname'
+require 'psych'
 
 module Database
   DB_PATH = './tasks/database/'
-  DB_FILE = 'lib_db.yaml'
+  DB_FILE = './lib_db.yaml'
 
   def save_data
     check_dir
@@ -27,15 +29,9 @@ module Database
 
     yaml = File.read(path)
     data = Psych.safe_load(
-        yaml, [Symbol, Date, Author, Book, Reader, Order], [], true
+        yaml, [Symbol, Library, Date, Author, Book, Reader, Order], [], true
     )
 
-    add_to_library data
-  end
-
-  def generate_data
-    check_dir
-    data = FakeData.call
     add_to_library data
   end
 
@@ -46,7 +42,7 @@ module Database
     File.delete(file)
   end
 
-  def add_to_library(data)
+  def add_to_library(data = {})
     @authors  = data[:authors]
     @books    = data[:books]
     @orders   = data[:orders]

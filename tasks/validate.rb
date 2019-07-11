@@ -10,7 +10,11 @@ module Validate
     raise FieldError if params.empty?
   end
 
-  def check_dates(date)
-    raise WrongNumber unless date.positive?
+  def instance?(main_class, *args)
+    args.each { |object| raise WrongClass unless object.instance_of?(main_class) }
+  end
+
+  def positive?(num)
+    raise WrongNumber unless num.positive?
   end
 end
