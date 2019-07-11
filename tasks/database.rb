@@ -1,55 +1,36 @@
 # frozen_string_literal: true
 
-require_relative '../dependencies'
-require 'pathname'
-require 'psych'
-
 module Database
-  DB_PATH = './tasks/database/'
-  DB_FILE = './lib_db.yaml'
+  PATH_FILE = 'database.yaml'.to_s
 
   def save_data
-    check_dir
-
     data = {
         authors: @authors,
         books: @books,
-        orders: @orders,
-        readers: @readers
+        readers: @readers,
+        orders: @orders
     }
 
-    File.write(DB_PATH + DB_FILE, data.to_yaml)
+    File.write(PATH_FILE, data.to_yaml)
   end
 
   def load_data
-    check_dir
+    data = File.exist?(PATH_FILE) ? load_library_from_seeds : generate_data
+    add_entity_to_library(data)
+  end
 
-    file = DB_PATH + DB_FILE
-    path = Pathname.new(file).exist? ? file : './lib_db.yaml'
-
-    yaml = File.read(path)
+  def load_library_from_seeds
+    yaml_file = File.read(PATH_FILE)
     Psych.safe_load(
-        yaml, [Symbol, Library, Date, Author, Book, Reader, Order], [], true
+        yaml_file, [Symbol, Date, Author, Book, Reader, Order], [], true
     )
+  end
 
-    # add_to_library data
+  def generate_data
+    GenerateFakeData.fake_data
   end
 
   def delete_data
-    check_dir
-    file = DB_PATH + DB_FILE
-    return unless Pathname.new(file).exist?
-    File.delete(file)
-  end
-
-  def add_to_library(data)
-    @authors  = data[:authors]
-    @books    = data[:books]
-    @orders   = data[:orders]
-    @readers  = data[:readers]
-  end
-
-  def check_dir
-    Dir.mkdir(DB_PATH, 0o700) unless Pathname.new(DB_PATH).exist?
+    File.delete(PATH_FILE) if File.exist? PATH_FILE
   end
 end

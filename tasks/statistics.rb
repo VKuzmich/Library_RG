@@ -1,34 +1,41 @@
 # frozen_string_literal: true
 
 # statistics
+
 module Statistics
   def show
-    puts <<-ENDOFSTRING
-        Top Reader: #{top_reader}
-        Most Popular Book: #{top_books}
-        Number of Readers of the Most Popular Books: #{count_readers_of_popular_book}
-    ENDOFSTRING
+    puts <<-EOS
+            =================== Library statistics =================
+            Top Reader: #{get_top_reader}
+            Most Popular Book: #{get_top_books}
+            Number of Readers of the Most Popular Books: #{get_readers_of_popular_books}
+            ========================================================
+    EOS
   end
 
-  def find_most_popular(item, entity_name)
+  def get_top_reader(quantity: 1)
+    get_top(quantity, :reader)
+  end
+
+  def get_top_books(quantity: 1)
+    get_top(quantity, :book)
+  end
+
+  def get_readers_of_popular_books(quantity: 3)
+    books = get_top(quantity, :book)
+
+    @orders
+        .select { |order| books.include? order.book }
+        .uniq(&:reader)
+        .length
+  end
+
+  def get_top(quantity, entity_name)
     result = @orders
                  .group_by(&entity_name)
-                 .max_by(item) { |_entity, orders| orders.size }
+                 .max_by(quantity) { |_, orders| orders.length }
                  .map(&:first)
 
-    item == 1 ? result.first : result
-  end
-
-  def top_reader(item: 1)
-    find_most_popular item, :reader
-  end
-
-  def top_books(item: 1)
-    find_most_popular item, :book
-  end
-
-  def count_readers_of_popular_book(item: 3)
-    books = find_most_popular item, :book
-    @orders.select { |order| books.include? order.book }.uniq(&:reader).size
+    quantity == 1 ? result.first : result
   end
 end

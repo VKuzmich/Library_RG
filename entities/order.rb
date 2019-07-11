@@ -8,7 +8,7 @@ class Order
   include Validate
   attr_reader :book, :reader, :date
 
-  def initialize(book:, reader:, date: Date.today)
+  def initialize(book:, reader:, date:)
     validate date
 
     @book = book
@@ -17,7 +17,7 @@ class Order
   end
 
   def to_s
-    "#{book}, #{reader}, #{date}"
+    "#{@book}, #{@reader}, #{@date}"
   end
 
   def validate(date)

@@ -3,15 +3,24 @@
 require_relative '../dependencies'
 
 class Library
-  attr_reader :readers, :orders, :authors, :books
 
   include Database
   include Statistics
 
-  def initialize(readers:, orders:, authors:, books:)
-    @readers = readers
-    @orders = orders
-    @authors = authors
-    @books = books
+  attr_reader :authors, :books, :readers, :orders
+
+  def initialize
+    load_data
+  end
+
+  def delete_file
+    delete_data
+  end
+
+  def add_entity_to_library(data)
+    @authors  = data[:authors]
+    @books    = data[:books]
+    @readers  = data[:readers]
+    @orders   = data[:orders]
   end
 end

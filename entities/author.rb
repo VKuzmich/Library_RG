@@ -8,9 +8,10 @@ require_relative '../tasks/validate'
 # authors of books
 class Author
   include Validate
+
   attr_reader :name, :biography
 
-  def initialize(name:, biography:)
+  def initialize(name:, biography: '')
     validate name, biography
 
     @name = name
@@ -18,7 +19,7 @@ class Author
   end
 
   def to_s
-    name
+    "#{@name}. #{@biography}"
   end
 
   def validate(*params)

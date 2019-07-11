@@ -7,7 +7,7 @@ class Book
   include Validate
   attr_reader :title, :author
 
-  def initialize( title:, author:)
+  def initialize(title:, author:)
     validate title, author
 
     @title = title
@@ -15,8 +15,7 @@ class Book
   end
 
   def to_s
-    title
-    author
+    "#{@title}: #{@author}"
   end
 
   def validate(*params)

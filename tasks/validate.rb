@@ -1,4 +1,5 @@
 # frozen_string_literal: true
+
 require_relative '../tasks/errors/errors'
 
 # module validating
@@ -11,7 +12,10 @@ module Validate
   end
 
   def instance?(main_class, *args)
-    args.each { |object| raise WrongClass unless object.instance_of?(main_class) }
+    args.each do |object|
+      raise WrongClass unless
+          object.instance_of?(main_class)
+    end
   end
 
   def positive?(num)
