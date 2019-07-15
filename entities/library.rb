@@ -8,7 +8,11 @@ class Library
 
   attr_reader :authors, :books, :readers, :orders
 
-  def initialize
+  def initialize (authors: [], books: [], readers: [], orders: [])
+    @authors = authors
+    @books = books
+    @readers = readers
+    @orders = orders
     load_data
   end
 
