@@ -19,6 +19,6 @@ class Book
   end
 
   def validate(*params)
-    params.each(&method(:check_empty_space))
+    check_empty_space(params)
   end
 end
