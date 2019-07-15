@@ -23,6 +23,6 @@ class Author
   end
 
   def validate(*params)
-    params.map(&method(:check_empty_space))
+    check_empty_space(*params)
   end
 end
