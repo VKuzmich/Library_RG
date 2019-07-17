@@ -6,7 +6,7 @@ require_relative '../tasks/validate'
 class Author
   include Validate
 
-  attr_accessor :name, :biography
+  attr_reader :name, :biography
 
   def initialize(name:, biography: '')
     validate name, biography
