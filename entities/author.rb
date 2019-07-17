@@ -8,7 +8,7 @@ class Author
 
   attr_reader :name, :biography
 
-  def initialize(name:, biography: '')
+  def initialize(name:, biography:'')
     validate name, biography
 
     @name = name

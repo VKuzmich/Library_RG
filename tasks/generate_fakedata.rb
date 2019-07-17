@@ -17,7 +17,7 @@ module GenerateFakeData
     def authors
       @authors = Array.new(25) do
         Author.new(
-          name: FFaker::Name.name, biography: 'Author Bio'
+          name: FFaker::Name.name, biography: FFaker::Lorem.paragraph
         )
       end
     end
