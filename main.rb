@@ -2,8 +2,6 @@
 
 require_relative 'entities/library'
 
-
-
 library = Library.new
 library.generate_data
 library.load_data
