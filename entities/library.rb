@@ -13,12 +13,8 @@ class Library
     @books = books
     @readers = readers
     @orders = orders
-    load_data
   end
 
-  def delete_file
-    delete_data
-  end
 
   def add_entity_to_library(data)
     @authors  = data[:authors]
