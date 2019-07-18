@@ -3,7 +3,6 @@
 require_relative '../dependencies'
 require 'date'
 
-# orders of books
 class Order
   include Validate
   attr_reader :book, :reader, :date

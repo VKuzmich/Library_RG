@@ -4,6 +4,8 @@ require 'yaml'
 require 'ffaker'
 require 'date'
 
+require_relative 'tasks/validate'
+
 require_relative 'entities/author'
 require_relative 'entities/book'
 require_relative 'entities/order'

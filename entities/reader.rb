@@ -2,7 +2,6 @@
 
 require_relative '../dependencies'
 
-# Readers' information
 class Reader
   include Validate
   attr_reader :name, :email, :city, :street, :house

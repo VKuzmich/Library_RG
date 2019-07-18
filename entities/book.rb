@@ -2,7 +2,6 @@
 
 require_relative '../dependencies'
 
-# books to read
 class Book
   include Validate
   attr_reader :title, :author
