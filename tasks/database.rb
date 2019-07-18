@@ -36,4 +36,13 @@ module Database
   def delete_data
     File.delete(PATH_FILE) if File.exist? PATH_FILE
   end
+
+
+  def add_entity_to_library(data)
+    @authors  = data[:authors]
+    @books    = data[:books]
+    @readers  = data[:readers]
+    @orders   = data[:orders]
+  end
+
 end

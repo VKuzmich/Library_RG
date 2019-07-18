@@ -15,11 +15,14 @@ class Library
     @orders = orders
   end
 
-
-  def add_entity_to_library(data)
-    @authors  = data[:authors]
-    @books    = data[:books]
-    @readers  = data[:readers]
-    @orders   = data[:orders]
+  def add_entity(entity)
+    case entity
+    when Author  then @authors << entity
+    when Book    then @books << entity
+    when Order   then @orders << entity
+    when Reader  then @readers << entity
+    else
+      raise ArgumentError
+    end
   end
 end
