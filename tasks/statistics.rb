@@ -3,13 +3,14 @@
 # statistics
 module Statistics
   def show
-    puts <<-EOS
+    puts(<<-HEREDOC
             =================== Library statistics =================
             Top Reader: #{get_top_reader}
             Most Popular Book: #{get_top_books}
             Number of Readers of the Most Popular Books: #{get_readers_of_popular_books}
             ========================================================
-            EOS
+    HEREDOC
+        )
   end
 
   def get_top_reader(quantity: 1)
