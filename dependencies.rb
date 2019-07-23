@@ -15,5 +15,3 @@ require_relative 'entities/library'
 require_relative 'tasks/database'
 require_relative 'tasks/generate_fakedata'
 require_relative 'tasks/statistics'
-
-
