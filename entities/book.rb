@@ -17,6 +17,12 @@ class Book
     "#{@title}: #{@author}"
   end
 
+  def adding_entity
+    add_entity
+  end
+
+  private
+
   def validate(*params)
     check_empty_space(params)
   end

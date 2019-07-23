@@ -19,6 +19,12 @@ class Order
     "#{@book}, #{@reader}, #{@date}"
   end
 
+  def adding_entity
+    add_entity
+  end
+
+  private
+
   def validate(date)
     instance?(Date, date)
   end

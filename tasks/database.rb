@@ -19,6 +19,12 @@ module Database
     add_entity_to_library(data)
   end
 
+  def delete_data
+    File.delete(PATH_FILE) if File.exist? PATH_FILE
+  end
+
+  private
+
   def load_library_from_seeds
     yaml_file = File.read(PATH_FILE)
     Psych.safe_load(
@@ -31,10 +37,6 @@ module Database
 
   def generate_data
     GenerateFakeData.fake_data
-  end
-
-  def delete_data
-    File.delete(PATH_FILE) if File.exist? PATH_FILE
   end
 
   def add_entity_to_library(data)
