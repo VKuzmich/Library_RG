@@ -17,10 +17,6 @@ class Author
     "#{@name}. #{@biography}"
   end
 
-  def adding_entity
-    add_entity
-  end
-
   private
 
   def validate(*params)

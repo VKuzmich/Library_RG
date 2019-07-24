@@ -20,10 +20,6 @@ class Reader
     "#{@name}, #{@email}, #{@city}, #{@street}, #{@house}"
   end
 
-  def adding_entity
-    add_entity
-  end
-
   private
 
   def validate(*params)
