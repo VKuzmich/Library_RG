@@ -1,0 +1,9 @@
+
+.idea/**/workspace.xml
+
+/.idea/
+/.byebug_history
+.byebug_history
+/coverage/
+coverage
+db

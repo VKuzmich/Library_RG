@@ -1,0 +1,557 @@
+---
+:authors:
+- &12 !ruby/object:Author
+  name: Janyce Jakubowski
+  biography: Consequatur excepturi voluptas inventore architecto ab animi et minima.
+    Alias consectetur sunt porro quis qui itaque. Consectetur ipsum veritatis similique
+    quod et vel id. Non quia magnam vel sed eum consectetur. Sed adipisci eius consequatur
+    voluptas quas est.
+- !ruby/object:Author
+  name: Shakira Gusikowski
+  biography: Vel facere consequatur laudantium deleniti exercitationem perspiciatis.
+    Animi hic in accusantium tempore. Aperiam laudantium dolor temporibus blanditiis
+    expedita molestias doloremque. Impedit consequuntur laudantium illum ex. Repellat
+    magnam provident dolor quia ut modi doloremque esse.
+- !ruby/object:Author
+  name: Derrick Crona
+  biography: Deleniti rerum perferendis non architecto. Dolor repellat iste autem
+    quia qui. Nesciunt aut odio mollitia nobis corrupti autem dolorem qui.
+- !ruby/object:Author
+  name: Shan Gerlach
+  biography: Doloremque omnis exercitationem occaecati odio aut explicabo sit aut.
+    Quod quaerat sit eos voluptas. Esse animi ipsum eum quis autem.
+- !ruby/object:Author
+  name: Morgan Kunde
+  biography: Voluptas sint totam possimus ut. Sed explicabo nam in et doloremque ducimus
+    occaecati. Ab dolores fugiat sunt ipsum voluptatem libero. Aut quaerat voluptatem
+    numquam error ad amet perferendis.
+- &4 !ruby/object:Author
+  name: Melvina Streich
+  biography: Quae laborum quasi sed libero deserunt eligendi asperiores. Eos debitis
+    ullam velit libero nam. Ipsam quidem totam iste inventore neque minus.
+- &5 !ruby/object:Author
+  name: Latesha Hartmann
+  biography: Possimus non deleniti aliquid qui. Aut rerum dolorem aperiam perferendis
+    inventore. Doloremque laboriosam ab voluptate voluptas quia itaque temporibus.
+    Placeat dolorem necessitatibus voluptate modi. Recusandae quia reiciendis ea est
+    ut nihil et sint.
+- &6 !ruby/object:Author
+  name: Debi Pfeffer
+  biography: Similique veritatis iusto accusamus odit sed dolorem aut quo. Ut repellendus
+    nisi et eos aliquid sint dolores omnis. Nostrum laborum qui corrupti earum dolore.
+- &8 !ruby/object:Author
+  name: Jonie Mitchell
+  biography: Suscipit nam debitis et perspiciatis et placeat ut. Enim voluptas ducimus
+    consequatur et. Ipsam dolores dolore totam pariatur dolorem dignissimos sunt et.
+    Eligendi voluptatem libero perferendis est excepturi enim sit quidem.
+- &13 !ruby/object:Author
+  name: Tona Corkery
+  biography: Distinctio voluptates vero quis harum eveniet qui nesciunt. Ex quo quia
+    consequatur sit ratione quia sint. Quibusdam unde soluta ipsam rerum eos incidunt
+    rem deleniti. Nostrum enim exercitationem deserunt explicabo iste harum et. Nihil
+    deleniti et dignissimos ut in doloribus earum voluptatum.
+- &2 !ruby/object:Author
+  name: Tu Grimes
+  biography: Repellat consequatur harum vitae ea quod laudantium culpa. Recusandae
+    in doloribus aut hic vitae ad illo. Similique est nemo animi aspernatur minus
+    et et.
+- &1 !ruby/object:Author
+  name: Belva Greenfelder
+  biography: Maiores in dolorem eaque enim non repudiandae cumque. Quia porro optio
+    suscipit dolores est odit quas assumenda. Rerum velit et quod voluptatem tempore
+    at exercitationem delectus.
+- &14 !ruby/object:Author
+  name: Haywood Thiel
+  biography: Sapiente et assumenda porro et officiis veritatis ipsum qui. Ut quia
+    architecto nobis aut magni. Itaque minima molestias repudiandae cum. Consequatur
+    nihil reiciendis doloribus ut vel enim molestiae qui. Exercitationem modi in et
+    nobis.
+- &7 !ruby/object:Author
+  name: Lisha Schoen
+  biography: Et quia totam doloribus itaque amet architecto. Eaque beatae aut aliquam
+    quidem qui facilis a. In culpa ducimus nam aut magni. Voluptates dolor vero in
+    minus perspiciatis veritatis reprehenderit. Consequatur ut voluptatum ut minima
+    libero non quas.
+- &3 !ruby/object:Author
+  name: Peg Larson
+  biography: Fugiat et accusantium recusandae id unde cumque quo est. Est aut facere
+    excepturi velit et cum. Eligendi ut est veritatis ut sed dolores aut. Fugiat est
+    animi aut et. Fugiat eligendi sint inventore architecto consequatur.
+- !ruby/object:Author
+  name: Beverley Schuppe
+  biography: Maiores vitae assumenda architecto molestiae. Repellat voluptas placeat
+    molestiae ut. Et suscipit tempora delectus eum et hic. Voluptas id laudantium
+    accusantium eos omnis autem.
+- &10 !ruby/object:Author
+  name: Gretchen Jakubowski
+  biography: Nesciunt est placeat dolorum ipsa. Veritatis vel est magnam aliquam dolore
+    consequuntur ut temporibus. Ullam harum recusandae rem a voluptatibus veniam.
+    At sint facilis maiores dolor quo nam. Explicabo illum non sed ut a molestias
+    qui.
+- &15 !ruby/object:Author
+  name: Odell Ankunding
+  biography: Nisi est pariatur modi facilis illo in a aspernatur. Blanditiis aut aut
+    a amet aspernatur ratione. Ea enim omnis sequi quos laboriosam laborum fugiat
+    quibusdam.
+- !ruby/object:Author
+  name: Jule Grimes
+  biography: Veritatis in omnis quo quae quia sint dolore. Cumque nisi fugiat voluptatibus
+    ut aspernatur voluptatem. Omnis harum nisi quis odio est consequatur.
+- &11 !ruby/object:Author
+  name: Latonia Boyle
+  biography: Nihil vel quod consequuntur sapiente aperiam quia qui. Praesentium qui
+    iusto temporibus voluptatum numquam odit laudantium quia. Commodi ut quia voluptates
+    ex et sint ipsam in. Sed ea itaque velit omnis aut. Ut at exercitationem veritatis
+    sunt.
+- &16 !ruby/object:Author
+  name: Jeanene Price
+  biography: Necessitatibus laborum minus reprehenderit at quasi labore mollitia voluptatem.
+    Quis dolorem odit deleniti nostrum architecto. Inventore hic et quisquam et id
+    explicabo voluptatum autem. Laboriosam quo minus rerum facere saepe.
+- !ruby/object:Author
+  name: Royal Johnston
+  biography: Pariatur commodi dolorem nihil molestiae quo est culpa voluptas. Officiis
+    architecto hic ratione officia id fuga dolorem. At cumque doloribus possimus et
+    est sit. Saepe delectus temporibus vero non sunt ipsam sed molestiae.
+- !ruby/object:Author
+  name: Dominque Grady
+  biography: At sed aliquam impedit est. Amet sapiente odit eos quis. Aliquid voluptates
+    non qui ex et tenetur modi harum. Tempore officiis et ullam aut.
+- &9 !ruby/object:Author
+  name: Filiberto Grady
+  biography: Minima libero consequatur et doloremque aut sed. Eius ea nulla rerum
+    architecto facere laboriosam ea provident. Iusto et quasi totam et quo voluptatem
+    aut. Aut incidunt eum et ratione occaecati placeat.
+- &17 !ruby/object:Author
+  name: Merlin Marvin
+  biography: Assumenda quos itaque sit et culpa. Quis dolor dicta est rerum porro
+    eligendi eos facere. Voluptas occaecati ullam in voluptas nihil ut ut. Eveniet
+    ducimus id omnis optio.
+:books:
+- &52 !ruby/object:Book
+  title: Electric Blow
+  author: *1
+- &18 !ruby/object:Book
+  title: 'Codename: Blonde Fly'
+  author: *2
+- &56 !ruby/object:Book
+  title: 'Codename: Electric Ninja'
+  author: *3
+- &25 !ruby/object:Book
+  title: I Married a Blue Dreams
+  author: *1
+- &44 !ruby/object:Book
+  title: Fake Man
+  author: *4
+- &39 !ruby/object:Book
+  title: Forbidden Gypsy
+  author: *5
+- &36 !ruby/object:Book
+  title: Blue Dreams
+  author: *6
+- &46 !ruby/object:Book
+  title: Blue Cat
+  author: *7
+- &58 !ruby/object:Book
+  title: Journey of the Blue Ninja
+  author: *8
+- &32 !ruby/object:Book
+  title: Rise of the Danger Demon
+  author: *9
+- &50 !ruby/object:Book
+  title: Electric Clash
+  author: *10
+- &24 !ruby/object:Book
+  title: Bloody Clash
+  author: *11
+- &38 !ruby/object:Book
+  title: 'Codename: American Brain'
+  author: *12
+- &20 !ruby/object:Book
+  title: Ultra Clash
+  author: *13
+- !ruby/object:Book
+  title: 'Codename: Bloody City'
+  author: *12
+- &28 !ruby/object:Book
+  title: 'Codename: Tokyo Hills'
+  author: *14
+- &41 !ruby/object:Book
+  title: Rise of the Death Ninja
+  author: *14
+- &27 !ruby/object:Book
+  title: War of the Hungry Cat
+  author: *15
+- &30 !ruby/object:Book
+  title: Ultra City
+  author: *16
+- &22 !ruby/object:Book
+  title: Electric Identity
+  author: *11
+- &34 !ruby/object:Book
+  title: Death Wizard
+  author: *17
+- &45 !ruby/object:Book
+  title: A Fistful of Bloody Blow
+  author: *14
+- &40 !ruby/object:Book
+  title: Red Friday
+  author: *1
+- &42 !ruby/object:Book
+  title: Day of the Ultra Thief
+  author: *11
+- !ruby/object:Book
+  title: Nuclear Ninjas
+  author: *14
+:readers:
+- &29 !ruby/object:Reader
+  name: Adell Schuster
+  email: fidel@jacobs.com
+  city: Leannonland
+  street: Beer Parkways
+  house: 58807
+- !ruby/object:Reader
+  name: Rudolph Goyette
+  email: ela_veum@windler.info
+  city: West Tommie
+  street: Ruecker Run
+  house: 69415
+- &60 !ruby/object:Reader
+  name: Siobhan Effertz
+  email: kanesha.weber@wintheiser.name
+  city: Spencerfurt
+  street: Jae Burg
+  house: 35
+- &26 !ruby/object:Reader
+  name: Mandy Cassin
+  email: hortensia.mante@white.info
+  city: Leschmouth
+  street: Pollich Neck
+  house: 9276
+- &33 !ruby/object:Reader
+  name: Gaynell Walker
+  email: xenia.hills@vandervort.name
+  city: Wintheiserbury
+  street: Emmitt Shoal
+  house: 16268
+- &54 !ruby/object:Reader
+  name: Coleen McClure
+  email: venita.marks@christiansen.biz
+  city: Wilkinsonberg
+  street: Senger Lane
+  house: 2724
+- &19 !ruby/object:Reader
+  name: Jestine Maggio
+  email: ethel.volkman@toyborer.us
+  city: Osinskimouth
+  street: Rempel Mountain
+  house: 9832
+- &53 !ruby/object:Reader
+  name: Celesta Braun
+  email: alleen_schaefer@hegmann.ca
+  city: Lake Antionetteshire
+  street: Wunsch Crescent
+  house: 63498
+- !ruby/object:Reader
+  name: Sid Bode
+  email: jane@leuschke.name
+  city: New Donaldport
+  street: Langworth Ranch
+  house: 6949
+- &49 !ruby/object:Reader
+  name: Gerry O'Hara
+  email: antone.feest@hermiston.co.uk
+  city: Buckmouth
+  street: Adams Via
+  house: 236
+- &48 !ruby/object:Reader
+  name: Rosa Wuckert
+  email: edith@millernienow.biz
+  city: Lake Danborough
+  street: Cremin Spring
+  house: 67446
+- &31 !ruby/object:Reader
+  name: Cathleen Christiansen
+  email: luana@hartmann.co.uk
+  city: Lake Noel
+  street: Greenfelder Knolls
+  house: 38626
+- &55 !ruby/object:Reader
+  name: Julia Batz
+  email: whitley@pollichrempel.us
+  city: New Madelynburgh
+  street: Wilton Canyon
+  house: 2576
+- &21 !ruby/object:Reader
+  name: Dalia Dicki
+  email: randa@breitenbergabshire.name
+  city: Lake Floshire
+  street: Pfannerstill Valley
+  house: 8780
+- !ruby/object:Reader
+  name: Silva Ortiz
+  email: mark.braun@cruickshank.co.uk
+  city: Milaview
+  street: Pacocha Parks
+  house: 34090
+- &35 !ruby/object:Reader
+  name: Kelsey Hegmann
+  email: suk_schamberger@kirlin.name
+  city: Klingburgh
+  street: Miller Shoal
+  house: 6906
+- &43 !ruby/object:Reader
+  name: Ryan Franecki
+  email: vita_macejkovic@macejkovic.co.uk
+  city: East Feltonborough
+  street: Conroy Knolls
+  house: 4203
+- !ruby/object:Reader
+  name: Peg Block
+  email: melisa@turner.co.uk
+  city: Whitemouth
+  street: Mammie Fort
+  house: 97184
+- !ruby/object:Reader
+  name: January Lueilwitz
+  email: tiffani@doylemueller.com
+  city: Sanfordtown
+  street: Cassin Ramp
+  house: 2768
+- &59 !ruby/object:Reader
+  name: Phyllis Blick
+  email: merrill@yundt.name
+  city: Ratkeside
+  street: Bertie Turnpike
+  house: 9325
+- &37 !ruby/object:Reader
+  name: Doloris Huels
+  email: tarsha@collierkuhic.name
+  city: South Lorita
+  street: Hirthe Trace
+  house: 3641
+- &57 !ruby/object:Reader
+  name: Adelaide Rogahn
+  email: brad_donnelly@schultz.ca
+  city: Elishahaven
+  street: Felicia Estates
+  house: 69015
+- &23 !ruby/object:Reader
+  name: Aide Schamberger
+  email: dorris@boehm.info
+  city: Mullerbury
+  street: Zemlak Parkways
+  house: 7624
+- &47 !ruby/object:Reader
+  name: Jared Champlin
+  email: dessie@jenkins.com
+  city: Cyndibury
+  street: Carolyne Views
+  house: 492
+- &51 !ruby/object:Reader
+  name: Tula Feest
+  email: donetta@willhahn.info
+  city: Lake Claretha
+  street: Lauren Summit
+  house: 1669
+:orders:
+- !ruby/object:Order
+  book: *18
+  reader: *19
+  date: 2019-07-24
+- !ruby/object:Order
+  book: *20
+  reader: *21
+  date: 2019-07-24
+- !ruby/object:Order
+  book: *22
+  reader: *23
+  date: 2019-07-24
+- !ruby/object:Order
+  book: *24
+  reader: *19
+  date: 2019-07-24
+- !ruby/object:Order
+  book: *25
+  reader: *26
+  date: 2019-07-24
+- !ruby/object:Order
+  book: *27
+  reader: *19
+  date: 2019-07-24
+- !ruby/object:Order
+  book: *28
+  reader: *29
+  date: 2019-07-24
+- !ruby/object:Order
+  book: *30
+  reader: *31
+  date: 2019-07-24
+- !ruby/object:Order
+  book: *32
+  reader: *33
+  date: 2019-07-24
+- !ruby/object:Order
+  book: *27
+  reader: *21
+  date: 2019-07-24
+- !ruby/object:Order
+  book: *34
+  reader: *35
+  date: 2019-07-24
+- !ruby/object:Order
+  book: *27
+  reader: *35
+  date: 2019-07-24
+- !ruby/object:Order
+  book: *36
+  reader: *37
+  date: 2019-07-24
+- !ruby/object:Order
+  book: *38
+  reader: *19
+  date: 2019-07-24
+- !ruby/object:Order
+  book: *39
+  reader: *19
+  date: 2019-07-24
+- !ruby/object:Order
+  book: *40
+  reader: *21
+  date: 2019-07-24
+- !ruby/object:Order
+  book: *41
+  reader: *29
+  date: 2019-07-24
+- !ruby/object:Order
+  book: *40
+  reader: *21
+  date: 2019-07-24
+- !ruby/object:Order
+  book: *28
+  reader: *29
+  date: 2019-07-24
+- !ruby/object:Order
+  book: *42
+  reader: *43
+  date: 2019-07-24
+- !ruby/object:Order
+  book: *25
+  reader: *26
+  date: 2019-07-24
+- !ruby/object:Order
+  book: *44
+  reader: *29
+  date: 2019-07-24
+- !ruby/object:Order
+  book: *30
+  reader: *33
+  date: 2019-07-24
+- !ruby/object:Order
+  book: *20
+  reader: *21
+  date: 2019-07-24
+- !ruby/object:Order
+  book: *30
+  reader: *23
+  date: 2019-07-24
+- !ruby/object:Order
+  book: *45
+  reader: *33
+  date: 2019-07-24
+- !ruby/object:Order
+  book: *46
+  reader: *47
+  date: 2019-07-24
+- !ruby/object:Order
+  book: *42
+  reader: *48
+  date: 2019-07-24
+- !ruby/object:Order
+  book: *27
+  reader: *49
+  date: 2019-07-24
+- !ruby/object:Order
+  book: *50
+  reader: *51
+  date: 2019-07-24
+- !ruby/object:Order
+  book: *20
+  reader: *49
+  date: 2019-07-24
+- !ruby/object:Order
+  book: *52
+  reader: *23
+  date: 2019-07-24
+- !ruby/object:Order
+  book: *20
+  reader: *47
+  date: 2019-07-24
+- !ruby/object:Order
+  book: *25
+  reader: *53
+  date: 2019-07-24
+- !ruby/object:Order
+  book: *50
+  reader: *54
+  date: 2019-07-24
+- !ruby/object:Order
+  book: *41
+  reader: *48
+  date: 2019-07-24
+- !ruby/object:Order
+  book: *42
+  reader: *33
+  date: 2019-07-24
+- !ruby/object:Order
+  book: *52
+  reader: *29
+  date: 2019-07-24
+- !ruby/object:Order
+  book: *30
+  reader: *23
+  date: 2019-07-24
+- !ruby/object:Order
+  book: *50
+  reader: *31
+  date: 2019-07-24
+- !ruby/object:Order
+  book: *32
+  reader: *55
+  date: 2019-07-24
+- !ruby/object:Order
+  book: *56
+  reader: *33
+  date: 2019-07-24
+- !ruby/object:Order
+  book: *46
+  reader: *57
+  date: 2019-07-24
+- !ruby/object:Order
+  book: *58
+  reader: *59
+  date: 2019-07-24
+- !ruby/object:Order
+  book: *20
+  reader: *48
+  date: 2019-07-24
+- !ruby/object:Order
+  book: *41
+  reader: *51
+  date: 2019-07-24
+- !ruby/object:Order
+  book: *45
+  reader: *26
+  date: 2019-07-24
+- !ruby/object:Order
+  book: *45
+  reader: *60
+  date: 2019-07-24
+- !ruby/object:Order
+  book: *18
+  reader: *59
+  date: 2019-07-24
+- !ruby/object:Order
+  book: *44
+  reader: *23
+  date: 2019-07-24
